@@ -1,0 +1,20 @@
+# Data Pipeline Configuration
+dataset:
+  name: "SCG-RHC Wearable Database"
+  physionet_version: "1.0.0"
+  sampling_rate_hz: 500
+  window_duration_sec: 20.0
+  stride_duration_sec: 10.0
+  baseline_calibration_windows: 2
+  format: "WFDB Format 32"
+  num_channels: 16
+
+provenance:
+  primary: "PhysioNet (Open Data Commons Attribution License v1.0)"
+  synthetic_simulation: "Generated from empirical clinical distributions (Explicitly Labeled)"
+
+splits:
+  method: "GroupKFold"
+  group_col: "patient_id"
+  n_splits: 5
+  zero_leakage_enforced: true

@@ -1,0 +1,24 @@
+# Digital Twin Engine & Temporal Transition Configuration
+state:
+  dimensions: 8
+  computational_states:
+    - "Stable"
+    - "Early Physiological Change"
+    - "Deteriorating"
+    - "High-Risk"
+    - "Possible Decompensation"
+
+alert_policy:
+  risk_threshold: 0.50
+  high_risk_threshold: 0.75
+  persistence_windows: 2
+  min_signal_quality: 0.40
+
+forecasting:
+  horizons_hours: [0, 6, 12, 24]
+  transition_type: "neural_ode_residual"
+  unroll_steps: 4
+
+simulation:
+  enabled: true
+  disclaimer_enforced: true

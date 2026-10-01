@@ -1,0 +1,25 @@
+# Multimodal Cross-Modal Fusion Configuration
+encoders:
+  ehr_dim: 15
+  ehr_hidden: 16
+  ecg_dim: 6
+  ecg_hidden: 16
+  wearable_scg_dim: 11
+  wearable_hidden: 16
+  deviation_dim: 9
+  deviation_hidden: 16
+
+fusion:
+  mechanism: "gated_cross_modal_attention"
+  total_modal_dim: 64
+  gating_activation: "sigmoid"
+  latent_state_dim: 8
+  state_space_bounds: [-1.0, 1.0]
+
+heads:
+  decompensation_risk:
+    dim: 1
+    activation: "sigmoid"
+  auxiliary_hemodynamics:
+    targets: ["PAM", "PCWM"]
+    dim: 2

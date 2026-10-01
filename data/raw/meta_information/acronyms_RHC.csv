@@ -1,0 +1,23 @@
+﻿Abbreviations,Definition
+EF,ejection fraction (%)
+CDecomp,Whether patient has decompensated heart failure based on clinical score (0=no; 1=yes)
+PDecomp,Whether patient has decompensated heart failure based on physiological score (0=no; 1=yes)
+NYHAC,New York Heart Association (NYHA) Functional Classification
+ho,history of patient
+IsChallenge,"whether patient underwent RHC procedure with vasodilator
+challenge"
+sbp,systolic blood pressure (mmHg)
+dbp,diastolic blood pressure (mmHg)
+DevLoc,patch device placement location
+ChamEvents,"the time when the catheter enters a cardiac chamber (ra=right atrium, rv=right ventricle, pa=pulmonary atrium, pcw=pulmonary capillary wedge, tdco=thermodilution cardiac output)"
+maclabMeas,clinical varaibles measured using Maclab Hemodynamic Recording System during baseline
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,

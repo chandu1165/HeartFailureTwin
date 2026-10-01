@@ -1,0 +1,7 @@
+Ablation_Condition,Num_Features,AUROC_mean,AUROC_OOF,AUPRC_mean,AUPRC_OOF,Sensitivity,Specificity,F1_Score,Brier_Score,ECE,Lead_Time_Min
+1. EHR Only (Static Profile),15,0.597,0.6962,0.5568,0.6641,0.7381,0.3136,0.5463,0.342,0.3837,1.6
+2. Wearable + ECG Only (No EHR),19,0.6205,0.7386,0.5948,0.7203,0.5952,0.8305,0.6494,0.2188,0.1591,1.38
+3. EHR + Wearables (No ECG),28,0.5252,0.752,0.5404,0.6216,0.6667,0.678,0.6292,0.2086,0.27,1.64
+4. EHR + ECG (No Wearables/SCG),24,0.6101,0.6736,0.5745,0.5844,0.6667,0.7881,0.6788,0.255,0.2842,1.52
+5. Multimodal (No Personalization / Population),34,0.6668,0.836,0.6285,0.7017,0.6548,0.7966,0.6748,0.1896,0.1388,1.64
+6. Full HeartFailureTwin (+ Personalized Baseline),43,0.654,0.844,0.6135,0.7097,0.6667,0.8051,0.6871,0.1922,0.1685,1.64

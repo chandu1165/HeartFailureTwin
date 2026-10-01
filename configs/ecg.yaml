@@ -1,0 +1,19 @@
+# ECG Preprocessing & Foundation Model Settings
+filter:
+  lowcut_hz: 0.5
+  highcut_hz: 45.0
+  order: 3
+  type: "butterworth_zero_phase"
+
+peak_detection:
+  algorithm: "pan_tompkins_adaptive"
+  min_distance_ms: 300 # Max 200 bpm
+  integration_window_ms: 150
+
+foundation_models:
+  primary: "ECG-FM"
+  architecture: "wav2vec2_ecg"
+  params: "90.9M"
+  frozen_embeddings: true
+  embedding_dim: 64
+  comparison: "ECGFounder"

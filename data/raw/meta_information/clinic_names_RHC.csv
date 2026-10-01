@@ -1,0 +1,22 @@
+﻿Abbreviations,Definition
+RAA Wave     ,right atrial pressure a-wave
+RAV Wave     ,right atrial pressure v-wave
+RAM          ,right atrial pressure mean 
+RAHR         ,right atrium pressure derived heart rate
+RVS          ,right ventricular pressure systolic
+RVD          ,right ventricular pressure diastolic 
+RVEDP        ,right ventricular end diastolic pressure 
+RVHR         ,right ventricle pressure derived heart rate
+PAS          ,pulmonary artery pressure systolic
+PAD          ,pulmonary artery pressure diastolic
+PAM          ,pulmonary artery pressure mean
+PAHR         ,pulmonary artery pressure derived heart rate
+PCWA Wave    ,pulmonary capillary wedge pressure a-wave
+PCWV Wave    ,pulmonary capillary wedge pressure v-wave
+PCWM         ,pulmonary capillary wedge pressure mean
+PCWHR        ,pulmonary capillary wedge pressure derived heart rate
+Fick COL/min ,Fick's law derived cardiac output
+TDCOL/min    ,thermodilution derived cardiac output
+TDCIL/min/m^2,thermodilution derived cardiac index
+Avg. COmL/min,Average of Fick Cardiac Output & Thermodilution Cardiac Output 
+SVmL/beat    ,stroke volume
