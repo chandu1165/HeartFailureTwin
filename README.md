@@ -18,14 +18,14 @@ This table directly maps our repository assets to the **Happiest Health Digital 
 
 | # | Mandatory Item | Repository Deliverable / Link | Status |
 | :---: | :--- | :--- | :---: |
-| **1** | **Team Details** | [Section 1.1: Team Details](#11-team-details) | 📝 Ready (Fill in names) |
-| **2** | **College / Incubator Information** | [Section 1.2: College & Incubator Information](#12-college--incubator-information) | 📝 Ready (Fill in institute) |
+| **1** | **Team Details** | [Section 1.1: Team Details](#11-team-details) (`code Kanyarasi` — V. Chandu) | ✅ Complete |
+| **2** | **College / Incubator Information** | [Section 1.2: College & Incubator Information](#12-college--incubator-information) (Vellore Institute of Technology AP) | ✅ Complete |
 | **3** | **Project Title** | **HeartFailureTwin: A Personalized Multimodal Digital Twin for Early Forecasting of Heart-Failure Decompensation** | ✅ Complete |
 | **4** | **Problem Statement** | [Section 2: Problem Statement & Clinical Context](#2-problem-statement--clinical-context) | ✅ Complete |
 | **5** | **Healthcare Use Case** | [Section 3: Healthcare Use Case & Clinical Workflow](#3-healthcare-use-case--clinical-workflow) | ✅ Complete |
 | **6** | **Technical Stack** | [Section 4: Comprehensive Technical Stack](#4-comprehensive-technical-stack) | ✅ Complete |
 | **7** | **AI/ML Model & Framework Details** | [Section 5: AI/ML Models & Framework Details](#5-aiml-models--framework-details) | ✅ Complete |
-| **8** | **15-20 Min Demo Video Link** | [Section 6: Demo Video (Unlisted YouTube)](#6-15-20-minute-demo-video-unlisted-youtube) | 📝 Ready (Add YouTube link) |
+| **8** | **15-20 Min Demo Video Link** | [Section 6: Demo Video & AI Video Guide](#6-15-20-minute-demo-video-unlisted-youtube) ([Full Production Script](docs/AI_VIDEO_EXPLANATION_AND_SCRIPT.md)) | 📝 Ready (Add YouTube link) |
 | **9** | **Open-source License Details** | [MIT Open-Source License](LICENSE) (Permissive academic & commercial use) | ✅ Complete |
 | **10** | **Architecture Diagram (PDF / PPT)** | • [Architecture Diagram (Vector PDF)](docs/architecture_diagram.pdf)<br>• [Architecture Diagram (PowerPoint PPTX)](docs/architecture_diagram.pptx)<br>• [Architecture Preview (PNG Image)](docs/architecture_diagram.png) | ✅ Complete |
 | **11** | **Project Presentation (PDF / PPT)** | • [12-Slide Presentation (Full Deck PDF)](docs/HeartFailureTwin_Presentation.pdf)<br>• [12-Slide Presentation (PowerPoint PPTX)](docs/HeartFailureTwin_Presentation.pptx) | ✅ Complete |
@@ -36,16 +36,14 @@ This table directly maps our repository assets to the **Happiest Health Digital 
 ## 1. Team & Institutional Affiliation
 
 ### 1.1 Team Details
-* **Team Name**: `[Enter Your Team Name Here]`
-* **Team Members**:
-  1. **Member 1 (Team Lead)**: `[Full Name]` — *Role: System Architecture, Digital Twin Engine, Full-Stack Integration* (`[email@example.com]`)
-  2. **Member 2**: `[Full Name]` — *Role: Signal Processing, Preprocessing Pipeline, PhysioNet Data Ingestion* (`[email@example.com]`)
-  3. **Member 3**: `[Full Name]` — *Role: Machine Learning Benchmarks, Ablation Studies, Model Evaluation* (`[email@example.com]`)
+* **Team Name**: `code Kanyarasi`
+* **Team Member**: **V. Chandu** (Sole Developer & Researcher)
+* **Email**: `valligatlachandu@gmail.com`
+* **Role**: End-to-End System Architecture, Multimodal Physiological Signal Processing, Digital Twin Modeling, Benchmarks & Full-Stack UI Development
 
 ### 1.2 College / Incubator Information
-* **Institution / College Name**: `[Enter Your College / University / Incubator Name Here]`
-* **Department / Faculty**: `[Department of Computer Science / Biomedical Engineering / etc.]`
-* **City / State**: `[City, State, India]`
+* **Institution / College Name**: **Vellore Institute of Technology AP** (VIT-AP University)
+* **Location**: Andhra Pradesh, India
 
 ---
 
@@ -153,20 +151,20 @@ To prevent the pervasive flaw of **patient data leakage** in physiological machi
 ## 6. 15-20 Minute Demo Video (Unlisted YouTube)
 
 * **Video Title**: `HeartFailureTwin: A Personalized Multimodal Digital Twin for Early Forecasting of Heart-Failure Decompensation`
-* **YouTube Link**: `[https://youtu.be/YOUR_UNLISTED_VIDEO_ID_HERE](https://youtu.be/YOUR_UNLISTED_VIDEO_ID_HERE)` *(Replace with your unlisted YouTube link)*
+* **YouTube Link**: `[https://youtu.be/YOUR_UNLISTED_VIDEO_ID_HERE](https://youtu.be/YOUR_UNLISTED_VIDEO_ID_HERE)` *(Paste your unlisted YouTube URL here)*
+* **Complete AI Video Production Guide & Word-for-Word Script**: 🎬 **[docs/AI_VIDEO_EXPLANATION_AND_SCRIPT.md](docs/AI_VIDEO_EXPLANATION_AND_SCRIPT.md)**
 * **Video Duration**: 15–20 Minutes
 * **Content Outline Covered in Video**:
-  1. *Minutes 00:00–03:00*: Clinical Context, Indian Heart Failure Burden & Challenge Alignment
-  2. *Minutes 03:00–06:00*: End-to-End System Architecture & Mathematical Foundations ($S(t)$, Baseline deviations)
-  3. *Minutes 06:00–09:00*: Zero-Leakage 5-Fold GroupKFold Cross-Validation, Baseline Benchmarks & Ablation Insights
-  4. *Minutes 09:00–14:00*: Live Doctor-Facing Dashboard Walkthrough:
-     - Cohort Overview & Risk Stratification
-     - Patient Digital Twin with Shaded Personal Baseline Ranges
-     - Interactive 4D Twin Replay (Hours 0 to 72) illustrating 31.2h early detection
-     - In Silico What-If Counterfactual Simulator (Fluid offload & medication titration)
-     - Research Benchmarks & Model Comparison
-  5. *Minutes 14:00–17:00*: Codebase Inspection, API Swagger UI (`/docs`), and Pytest Automated Verification
-  6. *Minutes 17:00–20:00*: Clinical Limitations, Ethical Guardrails, and Future Deployment Roadmap
+  1. *Minutes 00:00–01:45*: Introduction, Team Affiliation (`code Kanyarasi` — V. Chandu, VIT AP) & Core Vision
+  2. *Minutes 01:45–04:00*: Clinical Context, Indian Heart Failure Burden & Failure of Static Population Cutoffs
+  3. *Minutes 04:00–06:00*: Data Strategy & Transparent Provenance (PhysioNet SCG-RHC v1.0.0 & Synthetic Layer)
+  4. *Minutes 06:00–08:30*: End-to-End System Architecture & Mathematical Formulations ($S(t) \in [-1, +1]^8$, Baseline Envelopes)
+  5. *Minutes 08:30–10:15*: Scientific Rigor: Zero-Leakage 5-Fold GroupKFold Validation Protocol
+  6. *Minutes 10:15–12:30*: Benchmark Experimental Results (GRU AUROC 0.8713) & Critical Ablation Study
+  7. *Minutes 12:30–14:45*: Live Doctor-Facing Dashboard Walkthrough (`http://127.0.0.1:8000` — Cohort & Patient Views)
+  8. *Minutes 14:45–17:00*: The Centerpiece: Interactive 4D Twin Replay (Hours 0 to 72) illustrating 31.2h early detection
+  9. *Minutes 17:00–18:30*: In Silico What-If Counterfactual Simulator (Fluid offload & beta-blockade sliders)
+  10. *Minutes 18:30–20:00*: Codebase Inspection, Pytest Automated Verification (8/8 pass), Limitations & Ethics
 
 ---
 

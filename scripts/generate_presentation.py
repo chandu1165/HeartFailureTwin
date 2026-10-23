@@ -38,9 +38,10 @@ SLIDES_DATA = [
         "content_type": "title_slide",
         "details": [
             ("Track", "Digital Twin in Chronic / Lifestyle Disease (Heart Failure)"),
-            ("Team Name", "[Enter Team Name Here]"),
-            ("Team Members", "[Member 1 (Lead), Member 2, Member 3]"),
-            ("College / Incubator", "[Institution / University / Incubator Name]"),
+            ("Team Name", "code Kanyarasi"),
+            ("Team Member", "V. Chandu (Sole Developer & Researcher)"),
+            ("Email", "valligatlachandu@gmail.com"),
+            ("College / Institute", "Vellore Institute of Technology AP"),
             ("Submission Scope", "Working Prototype, Zero-Leakage ML Codebase, Doctor Dashboard, Full Docs"),
             ("Medical Disclaimer", "Research Decision-Support Prototype. Not a diagnostic medical device.")
         ]
