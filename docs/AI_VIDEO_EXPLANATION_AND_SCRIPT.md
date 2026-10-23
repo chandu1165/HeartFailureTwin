@@ -2,7 +2,7 @@
 
 > **Video Title**: HeartFailureTwin: A Personalized Multimodal Digital Twin for Early Forecasting of Heart-Failure Decompensation  
 > **Challenge**: Happiest Health Digital Twin Challenge 2026  
-> **Team**: code Kanyarasi (Sole Developer & Researcher: V. Chandu)  
+> **Team**: code Kanyarasi (Team Leader: V Chandu | Members: Vonteddu Sri Sai Himanish Reddy, Aditya Vihar Repaka)  
 > **Institution**: Vellore Institute of Technology AP (VIT-AP University)  
 > **Target Video Length**: 15–20 Minutes (Full End-to-End Walkthrough)  
 > **Target Resolution**: 1080p (1920x1080), 30 or 60 fps, 16:9 Widescreen
@@ -47,17 +47,18 @@ This guide provides the complete blueprint for producing a jury-grade, AI-assist
 ---
 
 ### SCENE 1: Introduction, Affiliation & High-Level Objective (00:00 – 01:45)
-**Visual on Screen**: Display **Slide 1** of `docs/HeartFailureTwin_Presentation.pdf` (or PowerPoint). Highlight Team Name (`code Kanyarasi`), Developer (`V. Chandu`), and Institution (`Vellore Institute of Technology AP`).
+**Visual on Screen**: Display **Slide 1** of `docs/HeartFailureTwin_Presentation.pdf` (or PowerPoint). Highlight Team Name (`code Kanyarasi` / `valligatlachandu`), Team Leader (`V Chandu`), Members (`Vonteddu Sri Sai Himanish Reddy`, `Aditya Vihar Repaka`), and Institution (`Vellore Institute of Technology AP`).
 
 > **AI Voiceover Script**:  
 > *"Greetings distinguished judges and healthcare innovators. Welcome to our comprehensive presentation and working prototype demonstration of **HeartFailureTwin**: A Personalized Multimodal Digital Twin for Early Forecasting of Heart-Failure Decompensation.  
 > 
-> My name is **V. Chandu**, representing team **code Kanyarasi** from the **Vellore Institute of Technology AP**, submitting for the **Happiest Health Digital Twin Challenge 2026**.  
+> My name is **V Chandu**, leading team **code Kanyarasi** alongside my colleagues **Vonteddu Sri Sai Himanish Reddy** and **Aditya Vihar Repaka** from the **Vellore Institute of Technology AP**, submitting for the **Happiest Health Digital Twin Challenge 2026**.  
 > 
 > Our core philosophy is simple yet transformative: **From patient data to patient trajectory.**  
 > 
 > We did not build another generic, static machine learning classifier that outputs a single risk number. Instead, we have engineered a continuously updated, patient-specific computational Digital Twin. It integrates historical clinical records with high-frequency wearable physiological telemetry, calibrates an individualized resting envelope for every patient, tracks an 8-dimensional latent physiological state space, and forecasts prospective deterioration trajectories up to 31 hours before acute clinical collapse occurs.  
 > 
+
 > As an essential medical disclaimer: HeartFailureTwin is designed strictly as a clinical decision-support and research prototype. It does not replace medical practitioners, provide automated diagnostic declarations, or prescribe therapies. Let us now examine the clinical urgency that motivated this work."*
 
 ---

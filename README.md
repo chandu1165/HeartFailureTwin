@@ -18,7 +18,7 @@ This table directly maps our repository assets to the **Happiest Health Digital 
 
 | # | Mandatory Item | Repository Deliverable / Link | Status |
 | :---: | :--- | :--- | :---: |
-| **1** | **Team Details** | [Section 1.1: Team Details](#11-team-details) (`code Kanyarasi` — V. Chandu) | ✅ Complete |
+| **1** | **Team Details** | [Section 1.1: Team Details](#11-team-details) (`code Kanyarasi` — V Chandu, Vonteddu Sri Sai Himanish Reddy, Aditya Vihar Repaka) | ✅ Complete |
 | **2** | **College / Incubator Information** | [Section 1.2: College & Incubator Information](#12-college--incubator-information) (Vellore Institute of Technology AP) | ✅ Complete |
 | **3** | **Project Title** | **HeartFailureTwin: A Personalized Multimodal Digital Twin for Early Forecasting of Heart-Failure Decompensation** | ✅ Complete |
 | **4** | **Problem Statement** | [Section 2: Problem Statement & Clinical Context](#2-problem-statement--clinical-context) | ✅ Complete |
@@ -36,10 +36,18 @@ This table directly maps our repository assets to the **Happiest Health Digital 
 ## 1. Team & Institutional Affiliation
 
 ### 1.1 Team Details
-* **Team Name**: `code Kanyarasi`
-* **Team Member**: **V. Chandu** (Sole Developer & Researcher)
-* **Email**: `valligatlachandu@gmail.com`
-* **Role**: End-to-End System Architecture, Multimodal Physiological Signal Processing, Digital Twin Modeling, Benchmarks & Full-Stack UI Development
+* **Team Name**: `code Kanyarasi` *(Unstop Team ID: `valligatlachandu`)*
+* **Team Members**:
+  1. **V Chandu (Team Leader)**
+     * **Phone**: `+91 9390340329`
+     * **Email**: `valligatlachandu@gmail.com`
+     * **Role**: System Architecture, Digital Twin Latent State Engine, Full-Stack Dashboard Integration
+  2. **Vonteddu Sri Sai Himanish Reddy**
+     * **Phone**: `+91 9392504793`
+     * **Role**: Physiological Signal Preprocessing, PhysioNet SCG-RHC Ingestion, Waveform Filtering
+  3. **Aditya Vihar Repaka**
+     * **Phone**: `+91 8555857555`
+     * **Role**: Machine Learning Baseline Benchmarks, Critical Ablation Studies, Model Evaluation
 
 ### 1.2 College / Incubator Information
 * **Institution / College Name**: **Vellore Institute of Technology AP** (VIT-AP University)

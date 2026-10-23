@@ -38,10 +38,11 @@ SLIDES_DATA = [
         "content_type": "title_slide",
         "details": [
             ("Track", "Digital Twin in Chronic / Lifestyle Disease (Heart Failure)"),
-            ("Team Name", "code Kanyarasi"),
-            ("Team Member", "V. Chandu (Sole Developer & Researcher)"),
-            ("Email", "valligatlachandu@gmail.com"),
-            ("College / Institute", "Vellore Institute of Technology AP"),
+            ("Team Name", "code Kanyarasi (Unstop: valligatlachandu)"),
+            ("Team Leader", "V Chandu (+91 9390340329 | valligatlachandu@gmail.com)"),
+            ("Team Member", "Vonteddu Sri Sai Himanish Reddy (+91 9392504793)"),
+            ("Team Member", "Aditya Vihar Repaka (+91 8555857555)"),
+            ("College / Institute", "Vellore Institute of Technology AP (VIT-AP)"),
             ("Submission Scope", "Working Prototype, Zero-Leakage ML Codebase, Doctor Dashboard, Full Docs"),
             ("Medical Disclaimer", "Research Decision-Support Prototype. Not a diagnostic medical device.")
         ]
@@ -325,13 +326,12 @@ def build_pptx_presentation():
                 p = tf.add_paragraph()
                 p.text = f"{label}: "
                 p.font.bold = True
-                p.font.size = Pt(13)
+                p.font.size = Pt(11)
                 p.font.color.rgb = SKY_BLUE
-                # append val
                 run = p.add_run()
                 run.text = val
                 run.font.bold = False
-                run.font.size = Pt(13)
+                run.font.size = Pt(11)
                 run.font.color.rgb = WHITE_TEXT
 
         elif c_type == "two_column":
@@ -514,22 +514,22 @@ def build_pdf_presentation():
             c.setFillColor(colors.HexColor("#1e293b"))
             c.setStrokeColor(colors.HexColor("#38bdf8"))
             c.setLineWidth(1)
-            c.roundRect(60, 40, page_w - 120, page_h - 125, 8, fill=1, stroke=1)
+            c.roundRect(60, 25, page_w - 120, page_h - 100, 8, fill=1, stroke=1)
 
             c.setFillColor(colors.HexColor("#34d399"))
-            c.setFont("Helvetica-Bold", 11)
-            c.drawString(80, page_h - 100, "Happiest Health Digital Twin Challenge — Official Project Submission")
+            c.setFont("Helvetica-Bold", 10.5)
+            c.drawString(80, page_h - 96, "Happiest Health Digital Twin Challenge — Official Project Submission")
 
-            y = page_h - 130
+            y = page_h - 120
             for label, val in item["details"]:
                 c.setFillColor(colors.HexColor("#38bdf8"))
-                c.setFont("Helvetica-Bold", 10)
+                c.setFont("Helvetica-Bold", 9)
                 c.drawString(80, y, f"{label}:")
                 
                 c.setFillColor(colors.HexColor("#f8fafc"))
-                c.setFont("Helvetica", 9.5)
-                c.drawString(200, y, val)
-                y -= 26
+                c.setFont("Helvetica", 8.5)
+                c.drawString(185, y, val)
+                y -= 20
 
         elif c_type == "two_column":
             col_w = (page_w - 100) / 2
